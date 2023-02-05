@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTest", "MathTest.csproj", "{BF2538F3-EB11-4E20-8C2F-F9C4FC06AFD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkTest", "NetworkTest.csproj", "{EEF80E43-F940-4A70-AABA-969AE351F37E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF2538F3-EB11-4E20-8C2F-F9C4FC06AFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF2538F3-EB11-4E20-8C2F-F9C4FC06AFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF2538F3-EB11-4E20-8C2F-F9C4FC06AFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF2538F3-EB11-4E20-8C2F-F9C4FC06AFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF80E43-F940-4A70-AABA-969AE351F37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF80E43-F940-4A70-AABA-969AE351F37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF80E43-F940-4A70-AABA-969AE351F37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF80E43-F940-4A70-AABA-969AE351F37E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5CE22971-D8FF-4146-ABD9-1BA8037637E1}
+		SolutionGuid = {B4582963-7D2A-452B-962C-56C14C3E3F99}
 	EndGlobalSection
 EndGlobal

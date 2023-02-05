@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF2538F3-EB11-4E20-8C2F-F9C4FC06AFD0}</ProjectGuid>
+    <ProjectGuid>{EEF80E43-F940-4A70-AABA-969AE351F37E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MathTest</RootNamespace>
-    <AssemblyName>MathTest</AssemblyName>
+    <RootNamespace>NetworkTest</RootNamespace>
+    <AssemblyName>NetworkTest</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,27 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Code\DotNet\GlobeMath\LatLonBox.cs">
-      <Link>DotNetMaths\LatLonBox.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Code\DotNet\GlobeMath\LLAPos.cs">
-      <Link>DotNetMaths\LLAPos.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Code\DotNet\GlobeMath\MathUtils.cs">
-      <Link>DotNetMaths\MathUtils.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Code\DotNet\GlobeMath\PosUtils.cs">
-      <Link>DotNetMaths\PosUtils.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Code\DotNet\GlobeMath\RPYAttitude.cs">
-      <Link>DotNetMaths\RPYAttitude.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Code\DotNet\GlobeMath\XYZPos.cs">
-      <Link>DotNetMaths\XYZPos.cs</Link>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestFramework\TestCentre.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

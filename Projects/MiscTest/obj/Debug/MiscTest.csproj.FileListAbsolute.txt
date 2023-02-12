@@ -1,0 +1,13 @@
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\bin\Debug\MiscTest.exe.config
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\bin\Debug\MiscTest.exe
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\bin\Debug\MiscTest.pdb
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\obj\Debug\MiscTest.csproj.AssemblyReference.cache
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\obj\Debug\MiscTest.csproj.CoreCompileInputs.cache
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\obj\Debug\MiscTest.exe
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\obj\Debug\MiscTest.pdb
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\obj\Debug\MiscTest.csproj.SuggestedBindingRedirects.cache
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\obj\Debug\MiscTest.Properties.Resources.resources
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\obj\Debug\MiscTest.csproj.GenerateResource.cache
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\bin\Debug\Newtonsoft.Json.dll
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\bin\Debug\Newtonsoft.Json.xml
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MiscTest\obj\Debug\MiscTest.csproj.CopyComplete

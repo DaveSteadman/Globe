@@ -10,6 +10,10 @@ namespace NetworkTest
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("- - - NetworkTest - - -");
+
+            Console.WriteLine("- - - Done - - -");
+            Console.ReadKey();
         }
     }
 }

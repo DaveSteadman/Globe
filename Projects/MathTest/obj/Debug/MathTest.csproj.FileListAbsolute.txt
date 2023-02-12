@@ -5,3 +5,4 @@ E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MathTest\obj\Debug\MathTes
 E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MathTest\obj\Debug\MathTest.csproj.CoreCompileInputs.cache
 E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MathTest\obj\Debug\MathTest.exe
 E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MathTest\obj\Debug\MathTest.pdb
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\MathTest\obj\Debug\MathTest.csproj.SuggestedBindingRedirects.cache

@@ -5,3 +5,4 @@ E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\NetworkTest\obj\Debug\Netw
 E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\NetworkTest\obj\Debug\NetworkTest.csproj.CoreCompileInputs.cache
 E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\NetworkTest\obj\Debug\NetworkTest.exe
 E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\NetworkTest\obj\Debug\NetworkTest.pdb
+E:\Data\03-CodeProjects\22-GithubRepos\Globe\Projects\NetworkTest\obj\Debug\NetworkTest.csproj.SuggestedBindingRedirects.cache

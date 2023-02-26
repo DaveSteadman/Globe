@@ -75,6 +75,14 @@ namespace DotNetMath
 
         // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+        public double LatSpanRads() { return LatMaxRads - LatMinRads; }
+        public double LonSpanRads() { return LonMaxRads - LonMinRads; }
+
+        public double LatSpanDegs() { return LatSpanRads() * MathUtils.RadsToDegsMultiplier; }
+        public double LonSpanDegs() { return LonSpanRads() * MathUtils.RadsToDegsMultiplier; }   
+
+        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
         // rely on the min position to anchor the box position, the max value is an increment on that, even 
         // if it wraps across a date line.
 

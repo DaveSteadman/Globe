@@ -8,3 +8,6 @@ Projects/MathTest - Copy/.vs/MathTest/v16/.suo
 Projects/MathTest/.vs/MathTest/v16/.suo
 Projects/NetworkTest/.vs/NetworkTest/v17/.suo
 Projects/NetworkTest/.vs/NetworkTest/v16/.suo
+*.bak
+Projects/MathTest/.vs/MathTest/v17/.suo
+Projects/MiscTest/.vs/MiscTest/v17/.suo

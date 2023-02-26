@@ -21,4 +21,17 @@ public class UnityMathUtils
     }
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    public static Vector3 LLAToXYZPos(LLAPos lla)
+    {
+        return UnityMathUtils.XYZPosToVector3(PosUtils.LlaToXyz(lla));
+    }
+
+
+    public static Vector3 LLAToXYZPos(double latDegs, double lonDegs, double altMeters)
+    {
+        LLAPos lla = new LLAPos(latDegs * MathUtils.DegsToRadsMultiplier, lonDegs * MathUtils.DegsToRadsMultiplier, altMeters + PosUtils.EarthRadiusM);
+        return XYZPosToVector3(PosUtils.LlaToXyz(lla));
+    }
+
 }

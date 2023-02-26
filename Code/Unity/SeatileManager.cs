@@ -53,13 +53,13 @@ public class SeaTileManager : MonoBehaviour
 
     public int SeaTileX(double inLon, int maplevel)
     {
-        int checkX = (int)MathUtils.scaleVal(inLon, -180.0, +180.0, 0, MapTileConsts.SeaTileHorizPerLvl[maplevel-1]);
+        int checkX = (int)MathUtils.ScaleVal(inLon, -180.0, +180.0, 0, MapTileConsts.SeaTileHorizPerLvl[maplevel-1]);
         return checkX;
     }
 
     public int SeaTileY(double inLat, int maplevel)
     {
-        int checkY = (int)MathUtils.scaleVal(inLat, -80.0, +80.0, 0, MapTileConsts.SeaTileVertPerLvl[maplevel-1]);
+        int checkY = (int)MathUtils.ScaleVal(inLat, -80.0, +80.0, 0, MapTileConsts.SeaTileVertPerLvl[maplevel-1]);
         return checkY;
     }
 
@@ -67,8 +67,8 @@ public class SeaTileManager : MonoBehaviour
 
     public bool IsSeaTile(LLAPos inPos, int maplevel)
     {
-        int checkX = SeaTileX(inPos.LonDegs(), maplevel);
-        int checkY = SeaTileY(inPos.LatDegs(), maplevel);
+        int checkX = SeaTileX(inPos.LonDegs, maplevel);
+        int checkY = SeaTileY(inPos.LatDegs, maplevel);
 
         int checkVal = 0;
 
@@ -90,8 +90,8 @@ public class SeaTileManager : MonoBehaviour
 
     public void SetSeaTile(LLAPos inPos, int maplevel, bool isSea)
     {
-        int checkX = SeaTileX(inPos.LonDegs(), maplevel);
-        int checkY = SeaTileY(inPos.LatDegs(), maplevel);
+        int checkX = SeaTileX(inPos.LonDegs, maplevel);
+        int checkY = SeaTileY(inPos.LatDegs, maplevel);
 
         if (maplevel == 1)
         {

@@ -61,7 +61,7 @@ namespace GlobeNetwork
             udpClient = new UdpClient(new IPEndPoint(IPAddress.Any, port));
             localEndPoint = (IPEndPoint)udpClient.Client.LocalEndPoint;
 
-            receiveThread = new Thread(new ThreadStart(receiveThreadFunc));
+            receiveThread = new Thread(new ThreadStart(ReceiveThreadFunc));
             receiveThread.Start();
         }
 

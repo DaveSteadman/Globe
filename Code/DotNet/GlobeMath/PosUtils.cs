@@ -10,7 +10,7 @@ namespace DotNetMath
 
         // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-        public XYZPos LlaToXyz(LLAPos lla)
+        public static XYZPos LlaToXyz(LLAPos lla)
         {
             double cosLat = Math.Cos(lla.LatRads);
             double sinLat = Math.Sin(lla.LatRads);
@@ -24,7 +24,7 @@ namespace DotNetMath
             return new XYZPos(x, y, z);
         }
 
-        public LLAPos XyzToLla(XYZPos xyz)
+        public static LLAPos XyzToLla(XYZPos xyz)
         {
             double p = Math.Sqrt(xyz.XM * xyz.XM + xyz.YM * xyz.YM);
             double lat = Math.Atan2(xyz.ZM, p);

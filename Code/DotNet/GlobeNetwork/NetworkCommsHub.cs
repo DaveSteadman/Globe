@@ -23,7 +23,7 @@ namespace GlobeNetwork
             // Stop all threads
             foreach (CommonConnection connection in connections)
             {
-                connection.stopConnection();
+                connection.StopConnection();
             }
             connections.Clear();
         }
@@ -39,11 +39,11 @@ namespace GlobeNetwork
 
                 // Satisfy parent class calls
                 clientConnection.name = connName;
-                clientConnection.setupIncomingQueue(incomingQueue);
+                clientConnection.SetupIncomingQueue(incomingQueue);
 
                 connections.Add((CommonConnection)clientConnection);
-                clientConnection.setConnectionDetails(ipAddrStr, port);
-                clientConnection.startConnection();
+                clientConnection.SetConnectionDetails(ipAddrStr, port);
+                clientConnection.StartConnection();
             }
             else if (connType == "TCPServer")
             {
@@ -53,11 +53,11 @@ namespace GlobeNetwork
                 // Satisfy parent class calls
                 serverConnection.name = connName;
                 serverConnection.commsHub = this;
-                serverConnection.setupIncomingQueue(incomingQueue);
+                serverConnection.SetupIncomingQueue(incomingQueue);
 
                 connections.Add((CommonConnection)serverConnection);
-                serverConnection.setConnectionDetails(ipAddrStr, port);
-                serverConnection.startConnection();
+                serverConnection.SetConnectionDetails(ipAddrStr, port);
+                serverConnection.StartConnection();
             }
         }
 
@@ -70,7 +70,7 @@ namespace GlobeNetwork
                 if (conn.name == connName)
                 {
                     Console.WriteLine("Stopping connection: " + connName);
-                    conn.stopConnection();
+                    conn.StopConnection();
                     connections.Remove(conn);
                     break;
                 }
@@ -86,7 +86,7 @@ namespace GlobeNetwork
                 if (conn.name == connName)
                 {
                     Console.WriteLine("Sending message to " + connName);
-                    conn.sendMessage(msgData);
+                    conn.SendMessage(msgData);
                 }
             }
         }
@@ -125,7 +125,7 @@ namespace GlobeNetwork
 
             foreach (CommonConnection conn in connections)
             {
-                outTxt += "Connection name: " + conn.name + " // type: " + conn.type() + "\n";
+                outTxt += "Connection name: " + conn.name + " // type: " + conn.Type() + "\n";
             }
 
             return outTxt;

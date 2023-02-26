@@ -60,8 +60,8 @@ namespace GlobeNetwork
 
                 Console.WriteLine("Socket connected to {0}", client.Client.RemoteEndPoint.ToString());
 
-                sendThread = new Thread(new ThreadStart(sendThreadFunc));
-                receiveThread = new Thread(new ThreadStart(receiveThreadFunc));
+                sendThread = new Thread(new ThreadStart(SendThreadFunc));
+                receiveThread = new Thread(new ThreadStart(ReceiveThreadFunc));
                 sendThread.Start();
                 receiveThread.Start();
             }

@@ -72,7 +72,7 @@ namespace GlobeNetwork
         public override void StartConnection()
         {
             // Process the client connection in a new thread.
-            serverThread = new Thread(new ThreadStart(serverThreadFunc));
+            serverThread = new Thread(new ThreadStart(ServerThreadFunc));
             serverThread.Start();
         }
 
@@ -101,7 +101,7 @@ namespace GlobeNetwork
 
         private void ServerThreadFunc()
         {
-            Console.WriteLine("THREAD FUNC START: TCPServerConnection.serverThreadFunc()");
+            Console.WriteLine("THREAD FUNC START: TCPServerConnection.ServerThreadFunc()");
 
             // Create a new TCP listener object.
             listener = new TcpListener(ipAddress, port);
@@ -140,10 +140,10 @@ namespace GlobeNetwork
                 newClient.name = name + "_client";
                 newClient.stream = stream;
                 newClient.client = client;
-                newClient.setupIncomingQueue(incomingQueue);
+                newClient.SetupIncomingQueue(incomingQueue);
                 newClient.lastUpdateTime = DateTime.Now;
 
-                newClient.startConnection();
+                newClient.StartConnection();
 
                 commsHub.connections.Add(newClient);
             }

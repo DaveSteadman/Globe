@@ -77,10 +77,10 @@ namespace GlobeNetwork
             running = true;
 
             // Process the client connection in a new thread.
-            sendThread = new Thread(new ThreadStart(sendThreadFunc));
+            sendThread = new Thread(new ThreadStart(SendThreadFunc));
             sendThread.Start();
 
-            receiveThread = new Thread(new ThreadStart(receiveThreadFunc));
+            receiveThread = new Thread(new ThreadStart(ReceiveThreadFunc));
             receiveThread.Start();
         }
 
@@ -111,7 +111,7 @@ namespace GlobeNetwork
 
         void SendThreadFunc()
         {
-            Console.WriteLine("THREAD FUNC START: TCPServerClientConnection.sendThreadFunc()");
+            Console.WriteLine("THREAD FUNC START: TCPServerClientConnection.SendThreadFunc()");
 
             // Enter an infinite loop to process client connections.
             while (running)
@@ -131,7 +131,7 @@ namespace GlobeNetwork
 
         void ReceiveThreadFunc()
         {
-            Console.WriteLine("THREAD FUNC START: TCPServerClientConnection.receiveThreadFunc()");
+            Console.WriteLine("THREAD FUNC START: TCPServerClientConnection.ReceiveThreadFunc()");
 
             // Enter a loop to continuously process client requests.
             while (running)
